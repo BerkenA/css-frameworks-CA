@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link href="../dist/styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-blue-100 min-h-screen w-full m-8 p-0">
+    <nav class="w-full h-20 flex justify-evenly text-black text-2xl font-semibold">
+        <ul class="w-full flex items-center p-0 flex-wrap justify-center gap-32">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="../profile/index.html">Profile</a>
+            </li>
+            <li>
+                <a href="index.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="w-full">
+    <div class="flex flex-col w-full max-w-6xl bg-white p-8 rounded-lg shadow-lg">
+
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-2xl font-bold text-center mb-6">Feed</h1>
+
+            <div class="flex space-x-4">
+                <select class="bg-blue-500 text-white p-2 rounded-2xl shadow-lg">
+                    <option value="date">Sort by Date</option>
+                    <option value="popularity">Sort by Popularity</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="mb-6">
+            <input type="text" id="search"
+                class="w-full px-4 py-2 border-2 border-black rounded-2xl shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Search posts..." />
+        </div>
+    </div>
+
+        <div class="flex flex-col bg-white w-full p-8">
+            <h2 class="text-2xl font-semibold mb-8">Recent Posts</h2>
+            <div class="flex space-x-4 bg-blue-500 p-4 rounded-2xl shadow-lg">
+                <img src="#" alt="Post Thumbnail" class="w-32 h-32 object-cover rounded-2xl shadow-md" />
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold text-white">Post Title 1</h3>
+                    <p class="text-sm text-white">This is a preview of the post content. You can add more text here.</p>
+                    <div class="flex justify-between text-xs text-gray-300">
+                        <span>5 minutes ago</span>
+                        <span>By: John Doe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="flex space-x-4 bg-blue-500 p-4 rounded-2xl shadow-lg">
+                <img src="#" alt="Post Thumbnail" class="w-32 h-32 object-cover rounded-2xl shadow-md" />
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold text-white">Post Title 2</h3>
+                    <p class="text-sm text-white">This is another preview of post content. Tailwind makes it easy!</p>
+                    <div class="flex justify-between text-xs text-gray-300">
+                        <span>10 minutes ago</span>
+                        <span>By: Jane Doe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-4 bg-blue-500 p-4 rounded-2xl shadow-lg">
+                <img src="#" alt="Post Thumbnail" class="w-32 h-32 object-cover rounded-2xl shadow-md" />
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold text-white">Post Title 3</h3>
+                    <p class="text-sm text-white">This is another preview of post content. Tailwind makes it easy!</p>
+                    <div class="flex justify-between text-xs text-gray-300">
+                        <span>10 minutes ago</span>
+                        <span>By: Jane Doe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-4 bg-blue-500 p-4 rounded-2xl shadow-lg">
+                <img src="#" alt="Post Thumbnail" class="w-32 h-32 object-cover rounded-2xl shadow-md" />
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold text-white">Post Title 4</h3>
+                    <p class="text-sm text-white">This is another preview of post content. Tailwind makes it easy!</p>
+                    <div class="flex justify-between text-xs text-gray-300">
+                        <span>10 minutes ago</span>
+                        <span>By: Jane Doe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex space-x-4 bg-blue-500 p-4 rounded-2xl shadow-lg">
+                <img src="#" alt="Post Thumbnail" class="w-32 h-32 object-cover rounded-2xl shadow-md" />
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold text-white">Post Title 5</h3>
+                    <p class="text-sm text-white">This is another preview of post content. Tailwind makes it easy!</p>
+                    <div class="flex justify-between text-xs text-gray-300">
+                        <span>10 minutes ago</span>
+                        <span>By: Jane Doe</span>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+</body>
+
+</html>
